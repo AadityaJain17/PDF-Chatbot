@@ -69,7 +69,7 @@ def get_response(user_input):
     })
     return response['answer']
 
-loader = PyPDFLoader('/Users/aadityajain/Desktop/python/streamlit_apps/pdf_chatbot/HR Policy_CB.pdf')
+loader = PyPDFLoader('/Users/aadityajain/Desktop/pdf_chatbot/HR Policy_CB.pdf')
 docs = loader.load()
 push_to_pinecone("gcp-starter", "pdf", embeddings, docs)
 # uploaded_files = st.file_uploader("Choose PDF files", type='pdf', accept_multiple_files=True)
