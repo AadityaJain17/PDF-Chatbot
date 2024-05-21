@@ -3,9 +3,9 @@ langchain-core
 langchain-community
 langchain
 langchain-google-genai
-langchain-embeddings
 langchain-schema
 langchain-document-loaders
 langchain-pdf
 langchain-openai
 dotenv
+python==3.9.0
