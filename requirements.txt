@@ -4,9 +4,9 @@ langchain-community
 langchain
 langchain-google-genai
 # langchain-schema
-langchain-document-loaders
-langchain-pdf
+# langchain-document-loaders
+# langchain-pdf
 langchain-openai
-langchai-embedding
+langchain-embedding
 dotenv
 python==3.9.0
