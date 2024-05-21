@@ -4,4 +4,4 @@ langchain-google-genai
 pypdf
 langchain-openai
 dotenv
-python
+python==3.9.6
