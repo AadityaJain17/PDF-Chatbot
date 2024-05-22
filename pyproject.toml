@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit >=3.0,<4.0"]
+build-backend = "flit.buildapi"
+
+[tool.streamlit]
+name = "Your Streamlit App Name"
+description = "Description of your Streamlit app"
+version = "0.1.0"
+authors = ["Your Name <your@email.com>"]
+license = "MIT"

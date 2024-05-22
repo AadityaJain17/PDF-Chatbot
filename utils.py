@@ -13,6 +13,7 @@ from langchain.document_loaders.pdf import PyPDFLoader
 from langchain_community.vectorstores import Pinecone as PineconeStore
 from dotenv import load_dotenv
 from pinecone import Pinecone
+import toml
 import asyncio
 
 embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
