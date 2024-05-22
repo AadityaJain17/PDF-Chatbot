@@ -7,3 +7,5 @@ dotenv
 python==3.9.6
 pygame
 toml
+setuptools
+pep517
