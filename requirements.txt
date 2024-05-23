@@ -4,6 +4,7 @@ langchain-google-genai==1.0.2
 pypdf==4.2.0
 langchain-openai==0.1.0
 python-dotenv==1.0.1
+pinecone==4.0.0
 # pygame==2.1.2
 toml==0.10.2
 setuptools-scm
