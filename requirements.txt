@@ -5,6 +5,8 @@ pypdf==4.2.0
 langchain-openai==0.1.0
 python-dotenv==1.0.1
 pinecone==4.0.0
+sentence-transformers==2.2.2
+langchain-text-splitters==0.0.1
 # pygame==2.1.2
 toml==0.10.2
 setuptools-scm
